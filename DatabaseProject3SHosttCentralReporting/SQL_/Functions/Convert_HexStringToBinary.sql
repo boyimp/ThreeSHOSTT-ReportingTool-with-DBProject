@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Convert_HexStringToBinary]
+(@HexStringValue NVARCHAR (MAX) NULL)
+RETURNS VARBINARY (MAX)
+AS
+ EXTERNAL NAME [SQL#].[CONVERT].[HexStringToBinary]
+
+
+GO
+

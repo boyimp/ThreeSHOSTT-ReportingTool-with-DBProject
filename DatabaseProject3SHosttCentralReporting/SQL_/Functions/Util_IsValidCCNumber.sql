@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Util_IsValidCCNumber]
+(@CCNumber NVARCHAR (4000) NULL)
+RETURNS BIT
+AS
+ EXTERNAL NAME [SQL#].[UTILITY].[IsValidCCNumber]
+
+
+GO
+

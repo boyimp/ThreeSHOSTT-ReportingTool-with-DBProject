@@ -1,0 +1,105 @@
+/* r.a.d.combobox Electric skin */
+
+.ComboBoxDropDown_Electric
+{
+	border: solid 1px #969696;
+	background: white;
+	text-align: left;
+}
+
+.ComboBoxHeader_Electric
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: black;
+	text-decoration: none;
+	text-align: left;
+	line-height: 26px;
+	background: #f0f2f4;
+	border-top: solid 1px #d8dde0;
+	border-top: solid 1px #d8dde0;
+	cursor: default;
+}
+
+.ComboBoxImageHover_Electric
+{
+	background: url('ComboDropArrowClicked.gif') no-repeat;
+}
+
+.ComboBoxImage_Electric
+{
+	background: url('ComboDropArrowNormal.gif') no-repeat;
+}
+
+.ComboBoxImage_Electric,
+.ComboBoxImageHover_Electric
+{
+	vertical-align: middle;
+	border-top: solid 1px #a6a6a6;
+	border-right: solid 1px #cacaca;
+	border-bottom: solid 1px #cacaca;
+	border-left: 0;
+	width: 28px;
+	height: 23px;
+}
+
+.ComboBoxInput_Electric,
+.ComboBoxInputHover_Electric
+{
+	border-top: solid 1px #a6a6a6;
+	border-right: 0;
+	border-bottom: solid 1px #cacaca;
+	border-left: solid 1px #cbcbcb;
+	font: bold 14px Verdana, Arial, Sans-serif;
+	color: #333;
+	cursor: default;
+	height: 25px;
+	background: white;
+	vertical-align: middle;
+	padding: 3px 0 0 5px; 
+}
+
+.ComboBoxItem_Electric,
+.ComboBoxItemHover_Electric,
+.ComboBoxItemDisabled_Electric
+{
+	padding: 6px 0 6px 4px;
+	background: white url('ComboItemBg.gif') repeat-x;
+	font: normal 11px Verdana, Arial, Sans-serif;
+	cursor: default;
+}
+
+.ComboBoxItemHover_Electric
+{
+	background-color: #ccff00;
+}
+
+.ComboBoxItemDisabled_Electric
+{
+	color: gray;
+	cursor: no-drop;
+}
+
+.ComboBoxLoadingMessage_Electric
+{
+	font: normal 10px Arial, Verdana, Sans-serif;
+	padding: 2px;
+}
+
+.ComboBoxMoreResultsMessage_Electric
+{
+	font: normal 10px Arial, Verdana, Sans-serif;
+	padding-bottom: 4px;
+}
+
+.ComboBoxMoreResultsImage_Electric
+{
+	padding: 4px;
+	margin: 4px;
+}
+
+.ComboBoxMoreResultsBox_Electric
+{
+	background: url('moreResults.gif') repeat-x bottom;
+	border-top: solid 1px #d8dde0;
+	cursor: default;
+}

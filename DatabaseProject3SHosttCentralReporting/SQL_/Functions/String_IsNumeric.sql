@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_IsNumeric]
+(@StringValue NVARCHAR (4000) NULL, @NumberTypeMask INT NULL)
+RETURNS BIT
+AS
+ EXTERNAL NAME [SQL#].[STRING].[IsNumeric]
+
+
+GO
+

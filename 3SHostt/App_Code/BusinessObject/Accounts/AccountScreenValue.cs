@@ -1,0 +1,23 @@
+using ThreeS.Infrastructure.Data;
+
+namespace ThreeS.Domain.Models.Accounts
+{
+    public class AccountScreenValue : ValueClass, IOrderable
+    {
+        public int AccountTypeId { get; set; }
+        public string AccountTypeName { get; set; }
+        public bool DisplayDetails { get; set; }
+
+        public string Name
+        {
+            get { return AccountTypeName; }
+        }
+
+        public int SortOrder { get; set; }
+
+        public string UserString
+        {
+            get { return Name; }
+        }
+    }
+}

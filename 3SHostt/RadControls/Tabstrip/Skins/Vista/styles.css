@@ -1,0 +1,141 @@
+.RadTabStrip_Vista
+{
+	font: 11px Arial, Tahoma, sans-serif;
+}
+
+.RadTabStrip_Vista li a
+{
+	height: 17px;
+	text-decoration: none;
+	color: #333;
+	outline: none;
+	background: transparent url('Img/tabStripBg.gif') repeat-x 0 0;
+	position: relative;
+	overflow: visible;
+	border: 1px solid #898c95;
+}
+
+.RadTabStrip_Vista .levelwrap
+{
+	margin-top: 2px;
+}
+
+.RadTabStrip_Vista li a .wrap
+{
+	height: 17px;
+	line-height: 17px;
+	white-space: nowrap;
+	position: relative;
+	overflow: visible;
+	border-right: 1px solid #fff;
+}
+
+.RadTabStrip_Vista li a .innerWrap
+{
+	height: 16px;
+	line-height: 16px;
+	padding: 0 12px;
+	margin: 1px 1px 0 1px;
+	text-align: center;
+	position: relative;
+}
+
+.RadTabStrip_Vista li a:hover
+{
+	border-color: #3c7fb1;
+	border-bottom-color: #898c95;
+	background: transparent url('Img/tabStripBgOver.gif') repeat-x 0 0;
+}
+
+.RadTabStrip_Vista li a:hover .innerWrap
+{
+	margin-left: 0;
+	border-left: 1px solid #fff;
+	border-bottom-width: 0;
+}
+
+.RadTabStrip_Vista li a.selected
+{
+	background: #fff;
+	margin: -2px 0 0 0;
+	height: 19px;
+	line-height: 17px;
+	border-bottom: 1px solid #fff;
+}
+
+.RadTabStrip_Vista li a.selected:hover
+{
+	border-color: #898c95;
+	border-bottom-color: #fff;
+	background: #fff;
+}
+
+.RadTabStrip_Vista li a.disabled,
+.RadTabStrip_Vista li a.disabled .wrap,
+.RadTabStrip_Vista li a.disabled .innerWrap
+{
+	cursor: default;
+	color: #aaa;
+}
+
+.RadTabStrip_Vista li a.disabled,
+.RadTabStrip_Vista li a.disabled:hover
+{
+	background-image: url('Img/tabStripBg.gif');
+	border: 1px solid #898c95;
+}
+
+.RadTabStrip_Vista li a.disabled:hover .innerWrap
+{
+	margin-left: 1px;
+	border-left: 0;
+}
+
+.RadTabStrip_Vista li.break
+{
+	visibility: hidden;
+	width: 0;
+	float: none;
+}
+
+.RadTabStrip_Vista li a.red,
+.RadTabStrip_Vista li a.red .wrap,
+.RadTabStrip_Vista li a.red .innerWrap
+{
+	color: red;
+}
+
+/* scrolling arrows */
+
+.RadTabStrip_Vista .leftArrow
+{
+	background-image:url(Img/ScrollLeft.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 8px;
+}
+
+.RadTabStrip_Vista .rightArrow
+{
+	background-image:url(Img/ScrollRight.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 8px;
+}
+
+
+.RadTabStrip_Vista .leftArrowDisabled
+{
+	background-image:url(Img/ScrollLeftDisabled.gif);
+	height: 11px;
+	width: 8px;
+	background-repeat: no-repeat;
+}
+
+.RadTabStrip_Vista .rightArrowDisabled
+{
+	background-image:url(Img/ScrollRightDisabled.gif);
+	height: 11px;
+	width: 8px;
+	background-repeat: no-repeat;
+}

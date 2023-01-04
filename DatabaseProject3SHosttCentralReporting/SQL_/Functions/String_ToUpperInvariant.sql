@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_ToUpperInvariant]
+(@StringValue NVARCHAR (MAX) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[STRING].[ToUpperInvariant]
+
+
+GO
+

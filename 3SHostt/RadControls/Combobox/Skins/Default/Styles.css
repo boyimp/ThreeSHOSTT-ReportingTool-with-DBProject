@@ -1,0 +1,99 @@
+/* RadComboBox default embedded skin */
+
+.ComboBoxDropDown_Default
+{
+	scrollbar-face-color: #e9e9e9;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #e9e9e9;
+	scrollbar-3dlight-color: #dbdbdb;
+	scrollbar-arrow-color: #787878;
+	scrollbar-track-color: #f5f5f5;
+	scrollbar-darkshadow-color: #aeaeae;
+	
+	border: 1px solid #626262;
+	background: #fff;
+	width: auto;
+	text-align: left;
+}
+
+.ComboBoxInput_Default,
+.ComboBoxInputHover_Default
+{
+	height: 23px; /*only IE applies this*/
+	vertical-align: middle;
+	border: 1px solid #626262;
+	cursor: default;
+	padding: 3px 5px;
+	font: normal 12px "Arial", sans-serif;
+}
+
+.ComboBoxInputHover_Default
+{
+	background-color: #efefef;
+}
+
+.ComboBoxItem_Default,
+.ComboBoxItemHover_Default
+{
+	font: normal 11px "Arial", sans-serif;
+	cursor: default;
+	color: #333;
+	padding: 5px;
+	zoom: 1;
+}
+
+.ComboBoxItemHover_Default
+{
+	background-color: #4c4c4c;
+	color: #fff;
+}
+
+.ComboBoxImage_Default,
+.ComboBoxImageHover_Default
+{
+	vertical-align:middle;
+}
+
+.ComboBoxHeader_Default
+{
+	background-color: #929292;
+	color: #fff;
+	font: bold 11px Arial, sans-serif;
+}
+
+.ComboBoxHeader_Default td
+{
+	border-right: 1px solid #5f5f5f;
+	text-indent: 5px;
+}
+ 
+.ComboBoxItemDisabled_Default
+{
+	font: normal 11px "Arial", sans-serif;
+	color: #ccc;
+	cursor: default;
+	padding: 5px;
+}
+ 
+.ComboBoxLoadingMessage_Default
+{
+	font: normal 12px "Arial", sans-serif;
+}
+ 
+.ComboBoxMoreResultsMessage_Default
+{
+	color: #999;
+	text-align: center;
+	padding: 3px 0;
+	font-size: 10px;
+}
+
+.ComboBoxMoreResultsImage_Default
+{
+	padding: 5px 0 0 0;
+}
+ 
+.ComboBoxMoreResultsBox_Default
+{
+	background: #f3f3f3;
+}

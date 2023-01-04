@@ -1,0 +1,364 @@
+.RadTabStrip_Default
+{
+	font: normal 12px Arial, Tahoma, sans-serif;
+}
+
+.RadTabStrip_Default li a
+{
+	height: 36px;
+	text-decoration: none;
+	/*color: #333;*/
+	color: Black;
+	outline: none;
+	background: transparent url('Img/tabStripBg.gif') repeat-x 0 0;
+	position: relative;
+	overflow: visible;
+}
+
+.RadTabStrip_Default li a:hover
+{
+	color: #fff;
+	background-image: url('Img/tabStripBgOver.gif');
+}
+
+.RadTabStrip_Default li a .wrap
+{
+	height: 36px;
+	line-height: 36px;
+	background: transparent url('Img/tabStripCornerRight.gif') no-repeat bottom right;
+	white-space: nowrap;
+	position: relative;
+	overflow: visible;
+}
+
+.RadTabStrip_Default li a .innerWrap
+{
+	height: 36px;
+	padding: 0 20px;
+	line-height: 36px;
+	text-align: center;
+	position: relative;
+	background: transparent url('Img/tabStripCornerLeft.gif') no-repeat bottom left;
+}
+
+.RadTabStrip_Default_rtl li a .wrap
+{
+	background: transparent url('Img/tabStripCornerLeft.gif') no-repeat bottom left;
+}
+
+.RadTabStrip_Default_rtl li a .innerWrap
+{
+	background: transparent url('Img/tabStripCornerRight.gif') no-repeat bottom right;
+}
+
+.RadTabStrip_Default li a.selected
+{
+	color: #333;
+	background-image: url('Img/tabStripBgSelected.gif');
+}
+
+.RadTabStrip_Default li a.selected:hover
+{
+	color: #333;
+	background-image: url('Img/tabStripBgSelected.gif');
+}
+
+.RadTabStrip_Default li a:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerRightOver.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default_rtl li a:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerLeftOver.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default li a:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerLeftOver.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default_rtl  li a:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerRightOver.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default li a.selected .wrap,
+.RadTabStrip_Default li a.selected:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerRightSelected.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default_rtl li a.selected .wrap,
+.RadTabStrip_Default_rtl li a.selected:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerLeftSelected.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default li a.selected .innerWrap,
+.RadTabStrip_Default li a.selected:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerLeftSelected.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default_rtl li a.selected .innerWrap,
+.RadTabStrip_Default_rtl li a.selected:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerRightSelected.gif') no-repeat center right;
+}
+
+
+/* first-last styling */
+
+.RadTabStrip_Default li.first
+{
+	padding-left: 5px;
+}
+
+.RadTabStrip_Default li.first a
+{
+	overflow: visible;
+	position: relative;
+}
+
+.RadTabStrip_Default li.first a .innerWrap
+{
+	position: relative;
+	margin-left: -5px;
+	padding-left: 15px;
+	z-index: 2;
+	display: block;
+}
+
+*+html .RadTabStrip_Default li.first a .innerWrap
+{
+	position: static;
+}
+
+.RadTabStrip_Default li.last a
+{
+	margin-right: 5px;
+	overflow: visible;
+}
+
+.RadTabStrip_Default li.last a .wrap
+{
+	margin-right: -5px;
+}
+
+.RadTabStrip_Default_rtl li.last
+{
+	margin-left: 5px;
+}
+
+.RadTabStrip_Default_rtl li.first
+{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.RadTabStrip_Default_rtl li.first a
+{
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.RadTabStrip_Default_rtl li.first a .innerWrap
+{
+	margin-right: -5px;
+	padding-right: 15px;
+	margin-left: 0;
+	padding-right: 20px;
+}
+
+.RadTabStrip_Default_rtl li.last
+{
+	padding-left: 5px;
+}
+
+.RadTabStrip_Default_rtl li.last a
+{
+	margin-right: 0;
+	position: relative;
+	padding-left: 0;
+}
+
+.RadTabStrip_Default_rtl li.last a .wrap
+{
+	margin-right: 0;
+	overflow: visible;
+	display: block;
+	margin-left: -5px;
+	position: relative;
+	padding-left: 5px;
+}
+
+.RadTabStrip_Default_rtl li.last a .innerWrap
+{
+	padding-left: 15px;
+	margin-right: 0;
+}
+
+.RadTabStrip_Default li.first a .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedLeft.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default li.last a .wrap
+{
+	background: transparent url('Img/tabStripRoundedRight.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default li.first a:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedLeftOver.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default li.last a:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedRightOver.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default li.first a.selected .innerWrap,
+.RadTabStrip_Default li.first a.selected:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedLeftSelected.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default li.last a.selected .wrap,
+.RadTabStrip_Default li.last a.selected:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedRightSelected.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default_rtl li.first a .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedRight.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default_rtl li.last a .wrap
+{
+	background: transparent url('Img/tabStripRoundedLeft.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default_rtl li.first a:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedRightOver.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default_rtl li.last a:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedLeftOver.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default_rtl li.first a.selected .innerWrap,
+.RadTabStrip_Default_rtl li.first a.selected:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedRightSelected.gif') no-repeat center right;
+}
+
+.RadTabStrip_Default_rtl li.last a.selected .wrap,
+.RadTabStrip_Default_rtl li.last a.selected:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedLeftSelected.gif') no-repeat center left;
+}
+
+.RadTabStrip_Default li a.disabled,
+.RadTabStrip_Default li a.disabled .wrap,
+.RadTabStrip_Default li a.disabled .innerWrap
+{
+	cursor: default;
+	color: #aaa;
+}
+
+.RadTabStrip_Default li a.disabled,
+.RadTabStrip_Default li a.disabled:hover
+{
+	background-image: url('Img/tabStripBg.gif');
+}
+
+.RadTabStrip_Default li a.disabled .wrap,
+.RadTabStrip_Default li a.disabled:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerRight.gif') no-repeat bottom right;
+}
+
+.RadTabStrip_Default li.last a.disabled .wrap,
+.RadTabStrip_Default li.last a.disabled:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedRight.gif') no-repeat bottom right;
+}
+
+.RadTabStrip_Default li a.disabled .innerWrap,
+.RadTabStrip_Default li a.disabled:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerLeft.gif') no-repeat bottom left;
+}
+
+.RadTabStrip_Default li.first a.disabled .innerWrap,
+.RadTabStrip_Default li.first a.disabled:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedLeft.gif') no-repeat bottom left;
+}
+
+
+.RadTabStrip_Default_rtl li a.disabled .wrap,
+.RadTabStrip_Default_rtl li a.disabled:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerLeft.gif') no-repeat bottom left;
+}
+
+.RadTabStrip_Default_rtl li a.disabled .innerWrap,
+.RadTabStrip_Default_rtl li a.disabled:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerRight.gif') no-repeat bottom right;
+}
+
+.RadTabStrip_Default li.break
+{
+	visibility: hidden;
+	width: 0;
+	float: none;
+}
+
+.RadTabStrip_Default li a.red,
+.RadTabStrip_Default li a.red .wrap,
+.RadTabStrip_Default li a.red .innerWrap
+{
+	color: red;
+}
+
+/* scrolling arrows */
+
+.RadTabStrip_Default .leftArrow
+{
+	background-image: url(Img/ScrollLeft.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 8px;
+}
+
+.RadTabStrip_Default .rightArrow
+{
+	background-image: url(Img/ScrollRight.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 8px;
+}
+
+
+.RadTabStrip_Default .leftArrowDisabled
+{
+	background-image: url(Img/ScrollLeftDisabled.gif);
+	height: 11px;
+	width: 8px;
+	background-repeat: no-repeat;
+}
+
+.RadTabStrip_Default .rightArrowDisabled
+{
+	background-image: url(Img/ScrollRightDisabled.gif);
+	height: 11px;
+	width: 8px;
+	background-repeat: no-repeat;
+}

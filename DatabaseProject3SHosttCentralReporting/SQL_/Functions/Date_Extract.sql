@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Date_Extract]
+(@DatePart NVARCHAR (4000) NULL, @Date DATETIME NULL)
+RETURNS INT
+AS
+ EXTERNAL NAME [SQL#].[DATE].[Extract]
+
+
+GO
+

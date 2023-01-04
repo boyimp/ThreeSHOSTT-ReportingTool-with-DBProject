@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_Equals]
+(@StringValueA NVARCHAR (MAX) NULL, @StringValueB NVARCHAR (MAX) NULL)
+RETURNS BIT
+AS
+ EXTERNAL NAME [SQL#].[STRING].[Equals]
+
+
+GO
+

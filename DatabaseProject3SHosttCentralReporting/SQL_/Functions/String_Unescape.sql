@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_Unescape]
+(@EscapedString NVARCHAR (MAX) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[STRING].[Unescape]
+
+
+GO
+

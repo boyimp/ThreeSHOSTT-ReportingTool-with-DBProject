@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Convert_MSIntDateToDateTime]
+(@MSIntDate INT NULL)
+RETURNS DATETIME
+AS
+ EXTERNAL NAME [SQL#].[CONVERT].[MSIntDateToDateTime]
+
+
+GO
+

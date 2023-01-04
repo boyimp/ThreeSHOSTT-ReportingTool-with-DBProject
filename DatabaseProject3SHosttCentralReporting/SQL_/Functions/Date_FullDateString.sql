@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Date_FullDateString]
+(@TheDate DATETIME NULL)
+RETURNS NVARCHAR (4000)
+AS
+ EXTERNAL NAME [SQL#].[DATE].[FullDateString]
+
+
+GO
+

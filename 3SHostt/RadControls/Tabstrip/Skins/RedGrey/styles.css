@@ -1,0 +1,367 @@
+.RadTabStrip_RedGrey
+{
+	font: normal 12px Arial, Tahoma, sans-serif;
+}
+.RadTabStrip_RedGrey li
+{
+	margin-right: 2px;
+}
+.RadTabStrip_RedGrey li a
+{
+	height: 36px;
+	text-decoration: none;
+	color: White;
+	outline: none;
+	background: transparent url('Img/tabStripBg.jpg') repeat-x 0 0;
+	position: relative;
+	overflow: visible;
+	font-weight: bold;
+}
+
+.RadTabStrip_RedGrey li a:hover
+{
+	color: #fff;
+	background-image: url('Img/tabStripBgOver.jpg');
+}
+
+.RadTabStrip_RedGrey li a .wrap
+{
+	height: 36px;
+	line-height: 36px;
+	background: transparent url('Img/tabStripCornerRight.jpg') no-repeat bottom right;
+	white-space: nowrap;
+	position: relative;
+	overflow: visible;
+}
+
+.RadTabStrip_RedGrey li a .innerWrap
+{
+	height: 36px;
+	padding: 0 20px;
+	line-height: 36px;
+	text-align: center;
+	position: relative;
+	background: transparent url('Img/tabStripCornerLeft.jpg') no-repeat bottom left;
+}
+
+.RadTabStrip_RedGrey_rtl li a .wrap
+{
+	background: transparent url('Img/tabStripCornerLeft.jpg') no-repeat bottom left;
+}
+
+.RadTabStrip_RedGrey_rtl li a .innerWrap
+{
+	background: transparent url('Img/tabStripCornerRight.jpg') no-repeat bottom right;
+}
+
+.RadTabStrip_RedGrey li a.selected
+{
+	color: #000;
+	background-image: url('Img/tabStripBgSelected.jpg');
+}
+
+.RadTabStrip_RedGrey li a.selected:hover
+{
+	color: #000;
+	background-image: url('Img/tabStripBgSelected.jpg');
+}
+
+.RadTabStrip_RedGrey li a:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerRightOver.jpg') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey_rtl li a:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerLeftOver.jpg') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey li a:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerLeftOver.jpg') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey_rtl  li a:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerRightOver.jpg') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey li a.selected .wrap,
+.RadTabStrip_RedGrey li a.selected:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerRightSelected.jpg') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey_rtl li a.selected .wrap,
+.RadTabStrip_RedGrey_rtl li a.selected:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerLeftSelected.jpg') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey li a.selected .innerWrap,
+.RadTabStrip_RedGrey li a.selected:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerLeftSelected.jpg') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey_rtl li a.selected .innerWrap,
+.RadTabStrip_RedGrey_rtl li a.selected:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerRightSelected.jpg') no-repeat center right;
+}
+
+
+/* first-last styling */
+
+.RadTabStrip_RedGrey li.first
+{
+	padding-left: 5px;
+}
+
+.RadTabStrip_RedGrey li.first a
+{
+	overflow: visible;
+	position: relative;
+}
+
+.RadTabStrip_RedGrey li.first a .innerWrap
+{
+	position: relative;
+	margin-left: -5px;
+	padding-left: 15px;
+	z-index: 2;
+	display: block;
+}
+
+*+html .RadTabStrip_RedGrey li.first a .innerWrap
+{
+	position: static;
+}
+
+.RadTabStrip_RedGrey li.last a
+{
+	margin-right: 5px;
+	overflow: visible;
+}
+
+.RadTabStrip_RedGrey li.last a .wrap
+{
+	margin-right: -5px;
+}
+
+.RadTabStrip_RedGrey_rtl li.last
+{
+	margin-left: 5px;
+}
+
+.RadTabStrip_RedGrey_rtl li.first
+{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.RadTabStrip_RedGrey_rtl li.first a
+{
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.RadTabStrip_RedGrey_rtl li.first a .innerWrap
+{
+	margin-right: -5px;
+	padding-right: 15px;
+	margin-left: 0;
+	padding-right: 20px;
+}
+
+.RadTabStrip_RedGrey_rtl li.last
+{
+	padding-left: 5px;
+}
+
+.RadTabStrip_RedGrey_rtl li.last a
+{
+	margin-right: 0;
+	position: relative;
+	padding-left: 0;
+}
+
+.RadTabStrip_RedGrey_rtl li.last a .wrap
+{
+	margin-right: 0;
+	overflow: visible;
+	display: block;
+	margin-left: -5px;
+	position: relative;
+	padding-left: 5px;
+}
+
+.RadTabStrip_RedGrey_rtl li.last a .innerWrap
+{
+	padding-left: 15px;
+	margin-right: 0;
+}
+/*
+.RadTabStrip_RedGrey li.first a .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedLeft.gif') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey li.last a .wrap
+{
+	background: transparent url('Img/tabStripRoundedRight.gif') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey li.first a:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedLeftOver.gif') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey li.last a:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedRightOver.gif') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey li.first a.selected .innerWrap,
+.RadTabStrip_RedGrey li.first a.selected:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedLeftSelected.gif') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey li.last a.selected .wrap,
+.RadTabStrip_RedGrey li.last a.selected:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedRightSelected.gif') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey_rtl li.first a .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedRight.gif') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey_rtl li.last a .wrap
+{
+	background: transparent url('Img/tabStripRoundedLeft.gif') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey_rtl li.first a:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedRightOver.gif') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey_rtl li.last a:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedLeftOver.gif') no-repeat center left;
+}
+
+.RadTabStrip_RedGrey_rtl li.first a.selected .innerWrap,
+.RadTabStrip_RedGrey_rtl li.first a.selected:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedRightSelected.gif') no-repeat center right;
+}
+
+.RadTabStrip_RedGrey_rtl li.last a.selected .wrap,
+.RadTabStrip_RedGrey_rtl li.last a.selected:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedLeftSelected.gif') no-repeat center left;
+}
+*/
+.RadTabStrip_RedGrey li a.disabled,
+.RadTabStrip_RedGrey li a.disabled .wrap,
+.RadTabStrip_RedGrey li a.disabled .innerWrap
+{
+	cursor: default;
+	color: #aaa;
+}
+
+.RadTabStrip_RedGrey li a.disabled,
+.RadTabStrip_RedGrey li a.disabled:hover
+{
+	background-image: url('Img/tabStripBg.jpg');
+}
+
+.RadTabStrip_RedGrey li a.disabled .wrap,
+.RadTabStrip_RedGrey li a.disabled:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerRight.jpg') no-repeat bottom right;
+}
+
+.RadTabStrip_RedGrey li.last a.disabled .wrap,
+.RadTabStrip_RedGrey li.last a.disabled:hover .wrap
+{
+	background: transparent url('Img/tabStripRoundedRight.gif') no-repeat bottom right;
+}
+
+.RadTabStrip_RedGrey li a.disabled .innerWrap,
+.RadTabStrip_RedGrey li a.disabled:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerLeft.jpg') no-repeat bottom left;
+}
+
+.RadTabStrip_RedGrey li.first a.disabled .innerWrap,
+.RadTabStrip_RedGrey li.first a.disabled:hover .innerWrap
+{
+	background: transparent url('Img/tabStripRoundedLeft.gif') no-repeat bottom left;
+}
+
+
+.RadTabStrip_RedGrey_rtl li a.disabled .wrap,
+.RadTabStrip_RedGrey_rtl li a.disabled:hover .wrap
+{
+	background: transparent url('Img/tabStripCornerLeft.jpg') no-repeat bottom left;
+}
+
+.RadTabStrip_RedGrey_rtl li a.disabled .innerWrap,
+.RadTabStrip_RedGrey_rtl li a.disabled:hover .innerWrap
+{
+	background: transparent url('Img/tabStripCornerRight.jpg') no-repeat bottom right;
+}
+
+.RadTabStrip_RedGrey li.break
+{
+	visibility: hidden;
+	width: 0;
+	float: none;
+}
+
+.RadTabStrip_RedGrey li a.red,
+.RadTabStrip_RedGrey li a.red .wrap,
+.RadTabStrip_RedGrey li a.red .innerWrap
+{
+	color: red;
+}
+
+/* scrolling arrows */
+
+.RadTabStrip_RedGrey .leftArrow
+{
+	background-image: url(Img/ScrollLeft.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 8px;
+}
+
+.RadTabStrip_RedGrey .rightArrow
+{
+	background-image: url(Img/ScrollRight.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 8px;
+}
+
+
+.RadTabStrip_RedGrey .leftArrowDisabled
+{
+	background-image: url(Img/ScrollLeftDisabled.gif);
+	height: 11px;
+	width: 8px;
+	background-repeat: no-repeat;
+}
+
+.RadTabStrip_RedGrey .rightArrowDisabled
+{
+	background-image: url(Img/ScrollRightDisabled.gif);
+	height: 11px;
+	width: 8px;
+	background-repeat: no-repeat;
+}

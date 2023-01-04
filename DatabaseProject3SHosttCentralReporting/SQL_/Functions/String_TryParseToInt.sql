@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_TryParseToInt]
+(@ToParse NVARCHAR (50) NULL, @TargetDataType NVARCHAR (15) NULL, @Culture NVARCHAR (10) NULL)
+RETURNS BIGINT
+AS
+ EXTERNAL NAME [SQL#].[STRING].[TryParseToInt]
+
+
+GO
+

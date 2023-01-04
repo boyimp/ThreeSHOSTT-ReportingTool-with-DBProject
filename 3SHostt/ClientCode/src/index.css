@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box !important;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* login page bg img  */
+.loginContainer {
+    background-size: cover;
+    background-position: center center;
+}
+
+/* sidebar active link style  */
+.activeLinkDark .chakra-accordion__button {
+    background: #222732;
+}
+.activeLinkLight .chakra-accordion__button {
+    background: #f5f5f5;
+}
+.activeSubLinkDark .subNavLink {
+    color: #FA7242;
+}
+.activeSubLinkLight .subNavLink {
+    color: #FA7242;
+}
+
+
+/* Charts tooltop text color  */
+.apexcharts-tooltip {
+    background: #f3f3f3;
+    color: black;
+}
+
+/* table spreetsheet border  */
+.tableBorder th,
+.tableBorder td {
+    border: 1px solid rgba(128, 128, 128, 0.172);
+}
+
+/* react select  */
+.filterInput{
+    width:100%!important;
+}
+@media only screen and (max-width: 30em) {
+   .reactSelectFilterInput{
+    width:100%!important;
+   }
+  }
+
+  /* Export css */
+@media print {
+    .printable{
+        transform: scale(1.25, 1.4);
+    }
+    .hidePrintArea{
+        display: none!important;
+    }
+    .hidePrintBorder{
+        border: none!important;
+    }
+ 
+ }

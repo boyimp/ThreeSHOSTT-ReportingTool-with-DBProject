@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_WordWrap]
+(@StringValue NVARCHAR (MAX) NULL, @LineWidth INT NULL, @Separator NVARCHAR (4000) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[STRING].[WordWrap]
+
+
+GO
+

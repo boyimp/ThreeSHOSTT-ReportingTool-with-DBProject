@@ -1,0 +1,6 @@
+CREATE PROCEDURE [SQL#].[SQLsharp_DisplayEULA]
+AS EXTERNAL NAME [SQL#].[SQLsharp].[DisplayEULA]
+
+
+GO
+

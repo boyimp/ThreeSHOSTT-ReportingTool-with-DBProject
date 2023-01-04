@@ -1,0 +1,116 @@
+/* RadComboBox Black skin */
+
+.ComboBoxDropDown_Black
+{
+	text-align:left;
+	background:#292929;
+	color: #717171;
+	margin-left:1px !important;
+	scrollbar-face-color: #343434;
+	scrollbar-highlight-color: #414141;
+	scrollbar-3dlight-color: #000;
+	scrollbar-arrow-color: #717171;
+	scrollbar-track-color: #414141;
+	scrollbar-shadow-color: #272727;
+	scrollbar-darkshadow-color: #141414;
+}
+
+.ComboBoxHeader_Black
+{
+	background:#202020;
+	border-bottom: 1px solid #141414;
+	padding:3px 0; /* no side padding ! */
+	font: normal 11px/16px "segoe ui", arial, sans-serif;
+	color:#999;
+	width:auto !important;
+}
+
+.ComboBoxImage_Black,
+.ComboBoxImageHover_Black
+{
+	vertical-align:middle;
+	margin-left:-2px;
+}
+
+.ComboBoxInput_Black,
+.ComboBoxInputHover_Black
+{
+	height: 24px; /*only IE applies this*/
+	vertical-align: middle;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	cursor: default;
+	font:normal 11px "segoe ui",arial,verdana,sans-serif;
+	background:url(bg.gif) repeat-x;
+	border:0;
+}
+.ComboBoxInput_Black
+{
+	color: #999;
+}
+
+.ComboBoxInputHover_Black
+{
+	color:#cbcbcb;	
+}
+
+.ComboBoxItem_Black,
+.ComboBoxItemHover_Black,
+.ComboBoxItemDisabled_Black
+{
+	font:normal 11px "segoe ui",arial,verdana,sans-serif;
+	text-decoration: none;
+	text-align: left;
+	_height:1%;
+	cursor: pointer;
+	padding: 3px;
+}
+
+.ComboBoxItem_Black
+{
+	color: #717171;	
+	border-top:1px solid #292929;
+	border-bottom:1px solid #292929;
+}
+
+.ComboBoxItemHover_Black
+{
+	color:#ccc;
+	background:url(dropdownHover.gif) repeat-x #343434; 
+	border-top:1px solid #494949;
+	border-bottom:1px solid #242424;
+}
+
+.ComboBoxItemDisabled_Black
+{
+	color:#555;
+	cursor:no-drop;
+}
+
+.ComboBoxLoadingMessage_Black
+{
+	font:normal 11px "segoe ui",arial,verdana,sans-serif;
+	padding: 2px;
+}
+
+.ComboBoxMoreResultsMessage_Black
+{
+	font:normal 11px "segoe ui",arial,verdana,sans-serif;
+	padding-bottom: 4px;
+}
+
+.ComboBoxMoreResultsImage_Black
+{
+	padding: 5px;
+	margin: 5px;
+}
+
+.ComboBoxMoreResultsBox_Black
+{
+	background-repeat: no-repeat;
+	background-position: top center;
+	border-top: 1px solid #141414;
+	cursor: default;
+	color:#505050;
+}

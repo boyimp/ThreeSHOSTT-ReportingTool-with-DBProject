@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Util_Inflate]
+(@DataToDecompress VARBINARY (MAX) NULL)
+RETURNS VARBINARY (MAX)
+AS
+ EXTERNAL NAME [SQL#].[UTILITY].[Inflate]
+
+
+GO
+

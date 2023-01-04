@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Math_Tanh]
+(@BaseNumber FLOAT (53) NULL)
+RETURNS FLOAT (53)
+AS
+ EXTERNAL NAME [SQL#].[MATH].[Tanh]
+
+
+GO
+

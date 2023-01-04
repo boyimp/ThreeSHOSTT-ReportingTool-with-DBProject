@@ -1,0 +1,208 @@
+﻿/* Telerik RadGrid Grey skin */
+
+.RadGrid_CssGrey
+{
+	/*background: #930015;*/
+	background: #494f4f;
+	border-left: solid 1px #B4B3A6;
+	border-right: solid 1px #B4B3A6;
+	border-top: 1px solid #cccaba;
+	border-bottom: 1px solid #c2b12e;
+	font: normal 11px arial, verdana, sans-serif;
+}
+
+.MasterTable_CssGrey
+{
+    font:11px tahoma,sans-serif;
+}
+
+.RadGrid_CssGrey th,
+.RadGrid_CssGrey th a
+{ 
+	font-weight:bold;
+	color:#fff;
+	text-align: left;
+}
+.RadGrid_CssGrey,
+.RadGrid_CssGrey a
+{ 
+	color:#000;
+}
+
+.MasterTable_CssGrey
+{
+	border:0px !important;
+	/*-moz-user-select: none;*/ /*disables text selecting in Firefox to combat unpleasant visual appearance*/
+}
+.GridHeader_CssGrey
+{
+	color:#fff;
+	height: 34px;
+	background: #494f4f;
+}
+.GridHeader_CssGrey a
+{
+	color:#fff;
+}
+
+.GridRow_CssGrey td,
+.GridAltRow_CssGrey td,
+.SelectedRow_CssGrey td,
+.ActiveRow_CssGrey td,
+.GridEditRow_CssGrey td
+{
+    padding-top:4px;
+    padding-bottom:5px;
+}
+
+.GridRow_CssGrey
+{
+	background-color:#FBF4F3;
+}
+.GridRow_CssGrey td
+{
+	border-bottom:1px solid #ecd6cf;
+}
+
+.SelectedRow_CssGrey
+{
+	background-color: #ffffff !important;
+}
+.SelectedRow_CssGrey td,
+.GridEditRow_CssGrey td
+{
+	border-bottom:1px solid #ecd6cf;
+}
+
+.GridEditRow_CssGrey
+{
+	background-color: #ffffce !important;
+}
+
+.ActiveRow_CssGrey
+{
+	background-color: #ecd6cf !important;
+}
+.ActiveRow_CssGrey td
+{
+	border-bottom:1px solid #ecd6cf;
+}
+
+.GridAltRow_CssGrey
+{
+	/*background-color: #F5E9E7;*/
+	background-color: #B2D1E5;
+}
+.GridAltRow_CssGrey td
+{
+	border-bottom:1px solid #ecd6cf;
+}
+
+.GridPager_CssGrey
+{
+	background: #e7d0c8;
+}
+
+.GridPager_CssGrey .PagerPanel *
+{
+	vertical-align:middle;
+}
+
+.GridPager_CssGrey td
+{
+	border-top: 1px solid #c2a9a0;
+	padding-left: 11px;
+	padding-top:2px;
+	padding-bottom:3px;
+}
+.GridPager_CssGrey a
+{
+	color: #333;	
+}
+.GridHeader_CssGrey img
+{
+	vertical-align: middle;
+}
+td.GridHeader_CssGrey input
+{
+	width: auto;
+	float: left;
+	border: solid 1px #666;
+	background: #fafafa;
+	font: bold 10px Verdana, Arial, Sans-serif;
+	color: #989cb0;
+	height: 14px;
+	vertical-align:middle;
+}
+
+/* grouping button */
+.GroupPanelItems_CssGrey
+{
+	background: #494f4f;
+	color: white !important;
+	border: solid 1px #bc988c;
+	white-space:  nowrap;
+	font-size: 11px;
+}
+
+tr.GroupHeader_CssGrey
+{
+	background: #e7d0c8;
+	color: #706e65;
+	font-weight: bold;
+	height:20px;
+}
+
+.GroupPanel_CssGrey
+{
+	height: 20px;
+	width: 100%;
+	background: #69000f;
+	border-bottom: 1px solid #bc988c;
+	border-collapse: collapse;
+}
+
+.GroupPanel_CssGrey td
+{
+	color:#fff;
+}
+
+
+.TopReorderIndicator_CssGrey
+{
+	background: url('MoveDown.gif') no-repeat;
+}
+
+.BottomReorderIndicator_CssGrey
+{
+	background: url('MoveUp.gif') no-repeat;
+}
+
+.GridFilterMenu_CssGrey
+{
+    cursor:default;
+}
+
+.GridFilterMenu_CssGrey .GridFilterMenuSelectColumn_CssGrey,
+.GridFilterMenu_CssGrey .GridFilterMenuTextColumn_CssGrey
+{
+	padding:3px 4px;
+}
+
+.GridFilterMenu_CssGrey .GridFilterMenuSelectColumn_CssGrey
+{
+    background:#e4e4e4;
+    text-align:center;
+}
+
+.GridFilterMenu_CssGrey .GridFilterMenuTextColumn_CssGrey
+{
+    background:#fff;
+    color:#333;
+}
+
+.GridFilterMenu_CssGrey .GridFilterMenuHover_CssGrey
+{
+    background:#4c4c4c;
+    color:#fff;
+}

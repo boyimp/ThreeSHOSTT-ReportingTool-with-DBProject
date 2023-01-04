@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Convert_HtmlToXml]
+(@Document NVARCHAR (MAX) NULL, @DocumentUri NVARCHAR (4000) NULL, @CaseFolding NVARCHAR (50) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#.SgmlReader].[SGMLReader].[HtmlToXml]
+
+
+GO
+

@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[INET_HTMLEncode]
+(@DecodedHTML NVARCHAR (MAX) NULL, @WhiteSpaceHandling NVARCHAR (4000) NULL, @ContinuousEncoding BIT NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#.Network].[INET].[HTMLEncode]
+
+
+GO
+

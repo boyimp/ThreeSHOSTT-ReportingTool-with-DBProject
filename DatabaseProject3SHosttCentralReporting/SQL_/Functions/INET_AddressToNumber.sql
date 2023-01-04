@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[INET_AddressToNumber]
+(@IPAddress NVARCHAR (4000) NULL)
+RETURNS BIGINT
+AS
+ EXTERNAL NAME [SQL#.Network].[INET].[AddressToNumber]
+
+
+GO
+

@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Date_BusinessDays]
+(@StartDate DATETIME NULL, @EndDate DATETIME NULL, @ExcludeDaysMask BIGINT NULL)
+RETURNS INT
+AS
+ EXTERNAL NAME [SQL#].[DATE].[BusinessDays]
+
+
+GO
+

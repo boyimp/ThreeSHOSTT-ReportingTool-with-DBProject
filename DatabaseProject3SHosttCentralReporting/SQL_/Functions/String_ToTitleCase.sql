@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_ToTitleCase]
+(@StringValue NVARCHAR (MAX) NULL, @CultureNameOrLCID NVARCHAR (100) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[STRING].[ToTitleCase]
+
+
+GO
+

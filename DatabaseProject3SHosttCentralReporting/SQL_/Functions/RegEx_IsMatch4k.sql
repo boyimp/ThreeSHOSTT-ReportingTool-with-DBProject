@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[RegEx_IsMatch4k]
+(@ExpressionToValidate NVARCHAR (4000) NULL, @RegularExpression NVARCHAR (4000) NULL, @StartAt INT NULL, @RegExOptionsList NVARCHAR (4000) NULL)
+RETURNS BIT
+AS
+ EXTERNAL NAME [SQL#].[REGEX].[IsMatch]
+
+
+GO
+

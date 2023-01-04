@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_TryParseToDecimal]
+(@ToParse NVARCHAR (50) NULL, @Culture NVARCHAR (10) NULL)
+RETURNS DECIMAL (38, 20)
+AS
+ EXTERNAL NAME [SQL#].[STRING].[TryParseToDecimal]
+
+
+GO
+

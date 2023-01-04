@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_PadLeft]
+(@StringValue NVARCHAR (MAX) NULL, @StringWidth INT NULL, @PadCharacter NVARCHAR (4000) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[STRING].[PadLeft]
+
+
+GO
+

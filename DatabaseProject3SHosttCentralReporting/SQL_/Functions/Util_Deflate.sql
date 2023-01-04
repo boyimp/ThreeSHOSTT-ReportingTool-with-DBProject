@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Util_Deflate]
+(@DataToCompress VARBINARY (MAX) NULL)
+RETURNS VARBINARY (MAX)
+AS
+ EXTERNAL NAME [SQL#].[UTILITY].[Deflate]
+
+
+GO
+

@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[SQLsharp_WebSite]
+( )
+RETURNS NVARCHAR (4000)
+AS
+ EXTERNAL NAME [SQL#].[SQLsharp].[WebSite]
+
+
+GO
+

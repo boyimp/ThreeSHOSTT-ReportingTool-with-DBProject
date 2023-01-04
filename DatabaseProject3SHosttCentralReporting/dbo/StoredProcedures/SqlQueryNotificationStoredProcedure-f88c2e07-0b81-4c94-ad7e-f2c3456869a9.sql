@@ -1,0 +1,4 @@
+CREATE PROCEDURE [SqlQueryNotificationStoredProcedure-f88c2e07-0b81-4c94-ad7e-f2c3456869a9] AS BEGIN BEGIN TRANSACTION; RECEIVE TOP(0) conversation_handle FROM [SqlQueryNotificationService-f88c2e07-0b81-4c94-ad7e-f2c3456869a9]; IF (SELECT COUNT(*) FROM [SqlQueryNotificationService-f88c2e07-0b81-4c94-ad7e-f2c3456869a9] WHERE message_type_name = 'http://schemas.microsoft.com/SQL/ServiceBroker/DialogTimer') > 0 BEGIN if ((SELECT COUNT(*) FROM sys.services WHERE name = 'SqlQueryNotificationService-f88c2e07-0b81-4c94-ad7e-f2c3456869a9') > 0)   DROP SERVICE [SqlQueryNotificationService-f88c2e07-0b81-4c94-ad7e-f2c3456869a9]; if (OBJECT_ID('SqlQueryNotificationService-f88c2e07-0b81-4c94-ad7e-f2c3456869a9', 'SQ') IS NOT NULL)   DROP QUEUE [SqlQueryNotificationService-f88c2e07-0b81-4c94-ad7e-f2c3456869a9]; DROP PROCEDURE [SqlQueryNotificationStoredProcedure-f88c2e07-0b81-4c94-ad7e-f2c3456869a9]; END COMMIT TRANSACTION; END
+
+GO
+

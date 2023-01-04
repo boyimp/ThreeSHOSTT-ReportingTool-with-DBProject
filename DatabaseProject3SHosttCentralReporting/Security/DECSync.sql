@@ -1,0 +1,6 @@
+CREATE USER [DECSync]
+    WITH DEFAULT_SCHEMA = [DECSync];
+
+
+GO
+

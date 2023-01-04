@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_TryParseToDateTime]
+(@ToParse NVARCHAR (50) NULL, @TargetDataType NVARCHAR (15) NULL, @Culture NVARCHAR (10) NULL)
+RETURNS DATETIME2 (7)
+AS
+ EXTERNAL NAME [SQL#].[STRING].[TryParseToDateTime]
+
+
+GO
+

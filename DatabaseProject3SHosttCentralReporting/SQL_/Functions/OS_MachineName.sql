@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[OS_MachineName]
+( )
+RETURNS NVARCHAR (4000)
+AS
+ EXTERNAL NAME [SQL#.OS].[OS].[MachineName]
+
+
+GO
+

@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Convert_UUEncode]
+(@UnencodedValue VARBINARY (MAX) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[CONVERT].[UUEncode]
+
+
+GO
+

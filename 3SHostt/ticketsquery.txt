@@ -1,0 +1,24 @@
+
+
+
+declare @stmt nvarchar(max)
+select @stmt =
+      isnull(@stmt + ', ', '') +
+      'max(case when Name = ''' + Name + ''' then EntityName else null end) as ' + quotename(name)
+from EntityTypes
+select @stmt = '
+    with cte as (
+        select
+        O.Ticket_Id, P.Name,o.EntityName
+        
+    from TicketEntities as O
+        inner join EntityTypes as P on P.Id = O.EntityTypeId
+    group by O.Ticket_Id, P.Name,o.EntityName
+    )
+    select
+        Ticket_Id, ' + @stmt + ' from cte group by Ticket_Id'
+exec dbo.sp_executesql
+    @stmt = @stmt
+
+
+http://stackoverflow.com/questions/19394676/sql-server-pivot-multiple-columns-based-on-rows-from-another-tables

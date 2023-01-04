@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Math_IsPrime]
+(@BaseNumber BIGINT NULL)
+RETURNS BIT
+AS
+ EXTERNAL NAME [SQL#].[MATH].[IsPrime]
+
+
+GO
+

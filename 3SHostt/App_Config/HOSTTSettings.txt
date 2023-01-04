@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<SettingsObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessagingServerPort>8080</MessagingServerPort>
+  <TerminalName>Server</TerminalName> 
+	<ConnectionString>Z2MJNXBs7VBQ6ckkSMhcrEEnj5OfKD6oGigIYt8I+XZqMrkDxHw/SW4IjYjxSP7izxmHp+6VzMM5sC9k8z8+NHFecRkWivIaTXNoJxB7UUM8peYM7CZvlK5ypDWUxKt2uIvEKHKLt+/tQRGiFU0tZA==</ConnectionString >
+	<FetchDataFrom>FromStoredProcedure</FetchDataFrom>
+  <CompanyName>Retaurant Name</CompanyName>
+  <VatRegistrationNumber>VAT Reg-----------</VatRegistrationNumber>
+  <CompanyAddress>Restaurant Address</CompanyAddress>
+  <BiggestCurrencyNote>1000</BiggestCurrencyNote>
+  <StartMessagingClient>false</StartMessagingClient>
+  <NumberOfGuestMustEntry>false</NumberOfGuestMustEntry>
+  <VATIncludingDenominator>0</VATIncludingDenominator>
+  <InventoryAveragePrice>false</InventoryAveragePrice>
+  <DefaultHtmlReportHeader>
+    &lt;style type='text/css'&gt;
+    html
+    {
+    font-family: 'Courier New', monospace;
+    font-size: 10.2px;
+    }
+    &lt;/style&gt;
+  </DefaultHtmlReportHeader>
+  <CurrentLanguage>en</CurrentLanguage>
+  <OverrideLanguage>false</OverrideLanguage>
+  <OverrideWindowsRegionalSettings>false</OverrideWindowsRegionalSettings>
+  <DefaultRecordLimit>100</DefaultRecordLimit>
+  <WindowScale>0.8</WindowScale>
+  <Online>1</Online>
+  <HHTSignalRHubAddress>http://192.168.1.106/HHTWebApi/signalr</HHTSignalRHubAddress>
+  <ShowTaggedOrders>0</ShowTaggedOrders>
+  <KitchenRefreshInterval>17</KitchenRefreshInterval>
+  <TokenGenratingLimit>200</TokenGenratingLimit>
+  <KitchenNumberOfRows>2</KitchenNumberOfRows>
+  <KitchenNumberOfColumns>3</KitchenNumberOfColumns>
+  <KitchenNumberOfPages>20</KitchenNumberOfPages>
+  <TokenNumber>0</TokenNumber>
+  <WebPushKeys></WebPushKeys>
+  <FreezeUser />
+</SettingsObject>

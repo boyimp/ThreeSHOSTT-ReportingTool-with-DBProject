@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Convert_ToBase64]
+(@UnencodedValue VARBINARY (MAX) NULL, @Base64FormattingOption NVARCHAR (4000) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[CONVERT].[ToBase64]
+
+
+GO
+

@@ -1,0 +1,23 @@
+﻿/* add botstrap css first */
+.filterContainer {
+  margin: 0px 20px;
+}
+.searchBtn {
+  height: 45px !important;
+  width: 120px !important;
+  background-color: #fa7242;
+  color: white;
+  font-weight: bold;
+}
+.searchBtn:hover {
+  background-color: #f86530 !important;
+  color: white !important;
+}
+
+#ImageButton1,
+#ImageButton2,
+#ImageButton3 {
+  width: 35px !important;
+}
+/* add class 'filterContainer' */
+/* add class 'btn searchBtn'  */

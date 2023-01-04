@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Util_ToWords]
+(@NumericValue FLOAT (53) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[UTILITY].[ToWords]
+
+
+GO
+

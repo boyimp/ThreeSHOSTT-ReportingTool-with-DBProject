@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[RegEx_Unescape]
+(@ExpressionToUnescape NVARCHAR (MAX) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[REGEX].[Unescape]
+
+
+GO
+

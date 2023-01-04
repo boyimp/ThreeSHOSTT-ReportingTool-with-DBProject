@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Date_FormatOffset]
+(@TheDate DATETIMEOFFSET (7) NULL, @DateTimeFormat NVARCHAR (4000) NULL, @Culture NVARCHAR (10) NULL)
+RETURNS NVARCHAR (4000)
+AS
+ EXTERNAL NAME [SQL#].[DATE].[FormatOffset]
+
+
+GO
+

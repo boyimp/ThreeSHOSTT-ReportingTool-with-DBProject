@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[String_InitCap]
+(@StringValue NVARCHAR (MAX) NULL)
+RETURNS NVARCHAR (MAX)
+AS
+ EXTERNAL NAME [SQL#].[STRING].[InitCap]
+
+
+GO
+

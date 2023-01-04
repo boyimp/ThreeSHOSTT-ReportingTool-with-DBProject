@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Convert_BinarySidToSddl]
+(@UnencodedValue VARBINARY (100) NULL)
+RETURNS NVARCHAR (100)
+AS
+ EXTERNAL NAME [SQL#].[CONVERT].[BinarySidToSddl]
+
+
+GO
+

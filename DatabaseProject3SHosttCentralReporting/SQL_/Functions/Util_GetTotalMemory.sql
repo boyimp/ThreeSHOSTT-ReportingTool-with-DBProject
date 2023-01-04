@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Util_GetTotalMemory]
+( )
+RETURNS BIGINT
+AS
+ EXTERNAL NAME [SQL#].[UTILITY].[GetTotalMemory]
+
+
+GO
+

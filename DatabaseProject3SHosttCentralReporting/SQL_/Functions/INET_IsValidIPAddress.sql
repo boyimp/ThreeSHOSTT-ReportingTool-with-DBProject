@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[INET_IsValidIPAddress]
+(@IPAddress NVARCHAR (4000) NULL)
+RETURNS BIT
+AS
+ EXTERNAL NAME [SQL#.Network].[INET].[IsValidIPAddress]
+
+
+GO
+

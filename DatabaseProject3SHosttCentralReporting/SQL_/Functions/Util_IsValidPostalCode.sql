@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Util_IsValidPostalCode]
+(@CountryCode NVARCHAR (4000) NULL, @PostalCode NVARCHAR (4000) NULL)
+RETURNS BIT
+AS
+ EXTERNAL NAME [SQL#].[UTILITY].[IsValidPostalCode]
+
+
+GO
+

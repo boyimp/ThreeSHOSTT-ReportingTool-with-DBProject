@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Math_FormatDecimal]
+(@TheNumber NUMERIC (38, 18) NULL, @NumberFormat NVARCHAR (4000) NULL, @Culture NVARCHAR (10) NULL)
+RETURNS NVARCHAR (4000)
+AS
+ EXTERNAL NAME [SQL#].[MATH].[FormatDecimal]
+
+
+GO
+

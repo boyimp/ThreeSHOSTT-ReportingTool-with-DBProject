@@ -1,0 +1,284 @@
+/* RadMenu Black skin */
+
+.RadMenu_Black 
+{
+	background: #191919;
+}
+
+.RadMenu_Black_rtl
+{
+	text-align: right;
+}
+
+.RadMenu_Black_Context
+{
+	background: none;
+	border: 0;
+}
+
+.RadMenu_Black a
+{
+	text-decoration: none;
+}
+
+.RadMenu_Black .link
+{
+	line-height: 32px;
+	text-decoration: none;
+	color: #5c5c5c;
+	position: relative;
+	float:left;
+	padding-left:3px;
+}
+
+.RadMenu_Black .link:focused,
+.RadMenu_Black .focused
+{
+	outline: 0;
+}
+
+.RadMenu_Black .expanded
+{
+	z-index: 10000;
+}
+
+.RadMenu_Black .rootGroup .link:hover,
+.RadMenu_Black .rootGroup .focused,
+.RadMenu_Black .rootGroup .expanded
+{
+	background: transparent url("Img/SelectedBgRoot.gif") no-repeat 0 4px;
+	color: #ccc;
+}
+
+.RadMenu_Black .rootGroup .link:hover .text,
+.RadMenu_Black .rootGroup .focused .text,
+.RadMenu_Black .rootGroup .expanded .text
+{
+	background: transparent url("Img/SelectedBgRoot.gif") no-repeat right 4px;
+}
+
+.RadMenu_Black .group .link:hover,
+.RadMenu_Black .group .focused,
+.RadMenu_Black .group .expanded,
+.RadMenu_Black .group .link:hover .text,
+.RadMenu_Black .group .focused .text,
+.RadMenu_Black .group .expanded .text
+{
+	background: transparent url("Img/SelectedBgSubitem.gif") repeat-x 0 0;
+}
+
+.RadMenu_Black .rootGroup .link
+{
+	margin-right: 5px;
+	overflow: visible;
+}
+
+.RadMenu_Black .rootGroup .link .text
+{
+	font: normal 12px Arial, sans-serif;
+	margin-right:-1px;
+}
+
+* html .RadMenu_Black .item,* html .RadMenu_Black .horizontal .link,* html .RadMenu_Black .text{float:left}
+
+* html .RadMenu_Black .group .text,* html .RadMenu_Black .vertical .text{float:none}
+
+*+html .RadMenu_Black .rootGroup .link .text
+{
+	zoom: 1;
+}
+
+.RadMenu_Black .group .link .text
+{
+	font: normal 12px Arial, sans-serif;
+}
+
+.RadMenu_Black .group
+{
+	background: #191919;
+	border: 1px solid #0b0b0b;
+}
+
+.RadMenu_Black .horizontal
+{
+	height: 33px;
+	background: #191919 url("Img/Background.gif") repeat-x top left
+}
+
+.RadMenu_Black .group .horizontal
+{
+	height: 21px;
+	background: #191919;
+}
+
+.RadMenu_Black .group .link
+{
+	text-decoration: none;
+	color: #5c5c5c;
+	line-height: 18px;
+	height: 21px;
+	margin: 0;
+}
+
+.RadMenu_Black_rtl .group .link
+{
+	text-align: right;
+	padding-right:0;
+}
+
+.RadMenu_Black .text
+{
+	padding: 10px 16px 5px 16px;
+}
+
+.RadMenu_Black .group .link .text
+{
+	padding: 3px 30px 3px 7px;
+	font-size: 11px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.RadMenu_Black_rtl .group .link .text
+{
+	padding: 3px 7px 3px 30px;
+}
+
+/* <expand arrows styling> */
+
+.RadMenu_Black .group .link .expandLeft
+{
+	background: #191919 url("Img/ArrowExpand.gif") no-repeat right center;
+}
+
+.RadMenu_Black .group .link .expandRight
+{
+	background: #191919 url("Img/ArrowExpandRTL.gif") no-repeat left center;
+}
+
+.RadMenu_Black .group .link:hover .expandLeft,
+.RadMenu_Black .group .focused .expandLeft,
+.RadMenu_Black .group .expanded .expandLeft
+{
+	color: #ccc;
+	background: #191919 url("Img/ArrowExpandHovered.gif") no-repeat right center;
+}
+
+.RadMenu_Black .group .link:hover .expandRight,
+.RadMenu_Black .group .focused .expandRight,
+.RadMenu_Black .group .expanded .expandRight
+{
+	color: #ccc;
+	background: #191919 url("Img/ArrowExpandHoveredRTL.gif") no-repeat left center;
+}
+
+/* </expand arrows styling> */
+
+
+.RadMenu_Black .group .expanded
+{
+	z-index: 11;
+}
+
+.RadMenu_Black .topArrowDisabled,
+.RadMenu_Black .bottomArrowDisabled,
+.RadMenu_Black .leftArrowDisabled,
+.RadMenu_Black .rightArrowDisabled
+{
+	display: none;
+}
+
+.RadMenu_Black .topArrow,
+.RadMenu_Black .bottomArrow,
+.RadMenu_Black .leftArrow,
+.RadMenu_Black .rightArrow
+{
+	font-size: 0;
+	line-height: 0;
+	color: #fff;
+}
+
+.RadMenu_Black .topArrow,
+.RadMenu_Black .bottomArrow
+{
+	height: 10px;
+	width: 100%;
+	background: #343434 url("Img/ArrowScrollUpDown.gif") no-repeat center top;
+}
+
+.RadMenu_Black .topArrow
+{
+	border-top: 1px solid #000;
+}
+
+.RadMenu_Black .bottomArrow
+{
+	background-position: center bottom;
+	border-bottom: 1px solid #000;
+}
+
+.RadMenu_Black .leftArrow,
+.RadMenu_Black .rightArrow
+{
+	width: 10px;
+	height: 20px;
+	margin: 0;
+	background: #343434 url("Img/ArrowScrollLeftRight.gif") no-repeat left center;
+}
+
+.RadMenu_Black .rightArrow
+{
+	border-right: 1px solid #000;
+	background-position: right center;
+}
+
+.RadMenu_Black .leftArrow
+{
+	border-left: 1px solid #000;
+}
+
+.RadMenu_Black .rootGroup .item .disabled .text,
+.RadMenu_Black .group .item .disabled .text
+{
+	color: #333;
+}
+
+.RadMenu_Black .rootGroup .item .disabled
+{
+	background: none;
+}
+
+.RadMenu_Black .group .item .disabled
+{
+	background-color: #191919;
+}
+
+.RadMenu_Black .separator
+{
+	background-color: #1f1f1f;
+}
+
+.RadMenu_Black .horizontal .separator
+{
+	height: 20px;
+	margin-top: 8px;
+	width: 1px;
+	border-left: 1px solid #303030;
+}
+
+.RadMenu_Black .vertical .separator
+{
+	height: 1px;
+	border-top: 1px solid #303030;
+}
+
+.RadMenu_Black .separator .text
+{
+	display: none;
+}
+
+.RadMenu_Black .rootGroup .item .disabled:hover,
+.RadMenu_Black .rootGroup .item .disabled:hover .text
+{
+	background: none;
+}

@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[Date_GetIntTime]
+(@TheDate DATETIME NULL)
+RETURNS INT
+AS
+ EXTERNAL NAME [SQL#].[DATE].[GetIntTime]
+
+
+GO
+

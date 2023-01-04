@@ -1,0 +1,9 @@
+CREATE FUNCTION [SQL#].[OS_Uptime]
+( )
+RETURNS INT
+AS
+ EXTERNAL NAME [SQL#.OS].[OS].[Uptime]
+
+
+GO
+

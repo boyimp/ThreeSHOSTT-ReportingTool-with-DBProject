@@ -1,0 +1,5 @@
+GRANT SUBSCRIBE QUERY NOTIFICATIONS TO [sql_dependency_role];
+
+
+GO
+

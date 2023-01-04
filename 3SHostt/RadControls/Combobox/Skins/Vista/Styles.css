@@ -1,0 +1,110 @@
+/* RadComboBox Vista embedded skin */
+
+.ComboBoxDropDown_Vista
+{
+	border: 1px solid #c6c7d2;
+	border-top: 1px solid #83868d;
+	background: #fff;
+	text-align:left;
+	filter:progid:DXImageTransform.Microsoft.Shadow(strength=3,color=#646464,direction=135);
+}
+
+.ComboBoxHeader_Vista
+{
+	background:url(headerBg.gif) repeat-x #f1f2f4;
+	border-bottom: 1px solid #d5d5d5;
+	padding:3px 0; /* no side padding ! */
+	font: normal 11px/16px "segoe ui", arial, sans-serif; 
+}
+
+.ComboBoxImage_Vista
+{
+	vertical-align:middle;
+	margin-left:-2px;
+}
+
+.ComboBoxImageHover_Vista
+{
+	vertical-align:middle;
+	margin-left:-2px;
+}
+
+.ComboBoxInput_Vista,
+.ComboBoxInputHover_Vista
+{
+	height: 23px; /*only IE applies this*/
+	vertical-align: middle;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	cursor: default;
+	font:normal 11px "segoe ui",arial,verdana,sans-serif;
+	background:url(bg.gif) repeat-x #cfcfcf;
+	border: solid 1px #707070;
+}
+.ComboBoxInput_Vista
+{
+	color: #000;
+}
+
+.ComboBoxInputHover_Vista
+{
+	color:#06c;	
+}
+
+.ComboBoxItem_Vista,
+.ComboBoxItemHover_Vista,
+.ComboBoxItemDisabled_Vista
+{
+	font:normal 11px "segoe ui",arial,verdana,sans-serif;
+	text-decoration: none;
+	text-align: left;
+	_height:1%;
+	cursor: pointer;
+	cursor: hand;
+	padding: 3px;
+}
+
+.ComboBoxItem_Vista
+{
+	color: #333;	
+}
+
+.ComboBoxItemHover_Vista
+{
+	color:#fff;
+	background-color: #39f; 
+}
+
+.ComboBoxItemDisabled_Vista
+{
+	color:#666;
+	cursor: no-drop;
+}
+
+.ComboBoxLoadingMessage_Vista
+{
+	font:normal 11px "segoe ui",arial,verdana,sans-serif;
+	padding: 2px;
+}
+
+.ComboBoxMoreResultsMessage_Vista
+{
+	font:normal 11px "segoe ui",arial,verdana,sans-serif;
+	padding-bottom: 4px;
+}
+
+.ComboBoxMoreResultsImage_Vista
+{
+	padding: 5px;
+	margin: 5px;
+}
+
+.ComboBoxMoreResultsBox_Vista
+{
+	background-repeat: no-repeat;
+	background-position: top center;
+	border-top: 1px solid #c6c7d2;
+	cursor: default;
+	color:#999;
+}

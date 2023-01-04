@@ -1,0 +1,6 @@
+CREATE TYPE [dbo].[NameList] AS TABLE (
+    [NAME] NVARCHAR (MAX) NULL);
+
+
+GO
+
